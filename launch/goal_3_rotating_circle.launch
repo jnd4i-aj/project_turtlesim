@@ -1,0 +1,4 @@
+<launch>
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
+<node pkg="flytbase_assignment" type="goal_3_rotating_circle.py" name="Rotating_in_Circle" output="screen"/>
+</launch>

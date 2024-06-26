@@ -1,0 +1,7 @@
+<launch>
+<param name="caughtStatus" value="False"/>
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+<node pkg="flytbase_assignment" type="goal_4_circle.py" name="Rotating_in_Circle" output="screen"/>
+<node pkg="flytbase_assignment" type="spawn_second_turtle.py" name="second_turtle"/>
+<node pkg="flytbase_assignment" type="goal_5_half_speed.py" name="chaser" output="screen"/>
+</launch>
