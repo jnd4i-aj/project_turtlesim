@@ -1,0 +1,4 @@
+<launch>
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
+<node pkg="flytbase_assignment" type="goal_2_accel_decel.py" name="accel_decel" output="screen"/>
+</launch>
