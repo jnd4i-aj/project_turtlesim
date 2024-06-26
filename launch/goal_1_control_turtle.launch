@@ -1,4 +1,4 @@
 <launch>
 <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
-<node pkg="flytbase_assignment" type="goal_1_control_turtle.py" name="move_to_goal" output="screen"/>
+<node pkg="project_turtlesim" type="goal_1_control_turtle.py" name="move_to_goal" output="screen"/>
 </launch>
