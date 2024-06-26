@@ -21,6 +21,7 @@ class ChaseRT():
         self.pose_subscriber = rospy.Subscriber('/turtle2/pose', Pose, self.__posecallback)
 
         self.__common_functions = CommonFunctions()
+        # djhfgdf
         self.pose = Pose()
 
     def __posecallback(self, msg):
