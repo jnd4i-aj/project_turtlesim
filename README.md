@@ -1,8 +1,8 @@
 # project_turtlesim
 
-A ROS1-based simulation project for controlling and programming turtles in a virtual environment using Python. The project is structured as a ROS (Robot Operating System) catkin package and demonstrates various robot control concepts including goal navigation, pursuit behaviors, noise modeling, and more.
+A ROS1-based simulation project for controlling and programming turtles in a virtual environment using Python. The project is structured as a ROS (Robot Operating System) catkin package and demonstrates various robot control concepts, including goal navigation, pursuit behaviors, noise modeling, and more.
 
-The idea behind the project was to build and implement a dynamic pursuit scenario in ROS Turtlesim, inspired by the classic childhood police-thief game, where the Police Turtle actively pursues the Thief Turtle while adhering to defined dynamic constraints.
+The idea behind the project was to build and implement a dynamic pursuit scenario in ROS1 Turtlesim, inspired by the classic childhood police-thief game, where the Police Turtle actively pursues the Thief Turtle while adhering to defined dynamic constraints.
 
 ---
 
@@ -10,7 +10,7 @@ The idea behind the project was to build and implement a dynamic pursuit scenari
 
 - **Turtle Control**: Move the turtle to user-defined goals with PID controllers.
 - **Chase Behaviors**: Various scripts to chase another robot (the "Robber Turtle") using real-time pose tracking and control.
-- **Gaussian Noise Modeling**: Add noise to the pose for testing robustness of algorithms.
+- **Gaussian Noise Modeling**: Add noise to the pose for testing the robustness of algorithms.
 - **Spawning Multiple Turtles**: Scripted spawning of turtles at random locations and after delays.
 - **Motion Planning**: Predictive planning to intercept a moving target based on its path.
 - **ROS Integration**: Uses standard ROS packages (`rospy`, `roscpp`, `std_msgs`) and topics for inter-node communication.
@@ -133,4 +133,5 @@ This project currently does not specify a license. If you plan to use it beyond 
 
 ## Author
 
+Name: AMAN JINDAL
 GitHub: [jnd4i-aj](https://github.com/jnd4i-aj)
