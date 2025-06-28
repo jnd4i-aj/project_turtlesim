@@ -134,4 +134,5 @@ This project currently does not specify a license. If you plan to use it beyond 
 ## Author
 
 Name: AMAN JINDAL
+
 GitHub: [jnd4i-aj](https://github.com/jnd4i-aj)
