@@ -2,6 +2,8 @@
 
 A ROS1-based simulation project for controlling and programming turtles in a virtual environment using Python. The project is structured as a ROS (Robot Operating System) catkin package and demonstrates various robot control concepts including goal navigation, pursuit behaviors, noise modeling, and more.
 
+The idea behind the project was to build and implement a dynamic pursuit scenario in ROS Turtlesim, inspired by the classic childhood police-thief game, where the Police Turtle actively pursues the Thief Turtle while adhering to defined dynamic constraints.
+
 ---
 
 ## Features
@@ -19,7 +21,7 @@ A ROS1-based simulation project for controlling and programming turtles in a vir
 
 ### Prerequisites
 
-- ROS (Kinetic/Melodic/Noetic recommended)
+- ROS1 (Noetic recommended)
 - Catkin workspace set up (`catkin_ws`)
 - Python 3 with numpy
 
@@ -42,7 +44,7 @@ A ROS1-based simulation project for controlling and programming turtles in a vir
 3. Build the workspace:
 
     ```bash
-    catkin_make
+    catkin build
     source devel/setup.bash
     ```
 
@@ -122,11 +124,6 @@ A ROS1-based simulation project for controlling and programming turtles in a vir
 
 ---
 
-## Contributing
-
-Feel free to fork the repo, open issues, or submit pull requests for improvements and bugfixes.
-
----
 
 ## License
 
