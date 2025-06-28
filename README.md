@@ -1,4 +1,4 @@
-## **Project: Turtlesim**
+# **Project: Turtlesim**
 
 A ROS1-based simulation project for controlling and programming turtles in a virtual environment using Python. The project is structured as a ROS (Robot Operating System) catkin package and demonstrates various robot control concepts, including goal navigation, pursuit behaviors, noise modeling, and more.
 
